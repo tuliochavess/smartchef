@@ -1,0 +1,127 @@
+body {
+    width: 1366px;
+    height: 768px;
+}
+
+div#branco {
+    position: absolute;
+    width: 500px;
+    height: 596px;
+    margin-top: 86px;
+    margin-left: 183px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 14px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 12px 0px 0px 12px;
+}
+
+div#azul {
+    position: absolute;
+    width: 500px;
+    height: 596px;
+    margin-left: 683px;
+    margin-top: 86px;
+    background: #6C63FF;
+    border-radius: 0px 12px 12px 0px;
+}
+
+img#logo {
+    position: relative;
+    margin-top: 72px;
+    margin-left: 72px;
+    width: 144px;
+    height: 54px;
+}
+
+img#chapeu {
+    position: relative;
+    margin-left: 72px;
+    margin-bottom: 72px;
+}
+
+h1#qualidade {
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    width: 251px;
+    height: 56px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    margin-left: 72px;
+    margin-top: 20px;
+    letter-spacing: 0.02em;
+    color: #4F4F4F;
+}
+
+h1#lets {
+    position: relative;
+    width: 295px;
+    height: 56px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-top: 126px;
+    margin-left: 72px;
+}
+
+img#um {
+    position: relative;
+    margin-left: 72px;
+    margin-top: 64px;
+}
+
+img#local {
+    position: relative;
+    margin-left: 72px;
+    margin-top: 26px;
+}
+
+h2 {
+    position: absolute;
+    width: 258px;
+    height: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #F2F2F2;
+    margin-left: 104px;
+    margin-top: -20px;
+}
+
+input {
+    position: relative;
+    width: 356px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 14px;
+    margin-left: 72px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.02em;
+}
+
+button {
+    position: relative;
+    width: 356px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #CDCAFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #524AB3;
+    margin-left: 72px;
+    margin-top: 32px;
+}
