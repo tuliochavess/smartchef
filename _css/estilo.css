@@ -1,6 +1,7 @@
 body {
     width: 1366px;
     height: 768px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 div#branco {
@@ -106,7 +107,7 @@ input {
     letter-spacing: 0.02em;
 }
 
-button {
+button#next {
     position: relative;
     width: 356px;
     height: 44px;
@@ -124,4 +125,135 @@ button {
     color: #524AB3;
     margin-left: 72px;
     margin-top: 32px;
+}
+
+button#next:hover {
+    background: #524AB2;
+    color: #FFFFFF;
+}
+
+/*  tipo-comida ----------------------------------------------------------------- tipo-comida */
+
+img#ok {
+    position: absolute;
+    clear: both;
+    margin-top: 208px;
+    margin-left: -144px;    
+}
+
+img#set {
+    position: absolute;
+    clear: both;
+    margin-top: 220px;
+    margin-left: -90px;    
+}
+
+img#dois {
+    position: absolute;
+    clear: both;
+    margin-top: 284px;
+    margin-left: 72px;    
+}
+
+h3#eat {
+    position: absolute;
+    width: 274px;
+    height: 28px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #4F4F4F;
+    clear: both;
+    margin-top: 80px;
+    margin-left: 152px;
+}
+
+img#edit {
+    position: absolute;
+    clear: both;
+    margin-top: 238px;
+    margin-left: -62px;
+}
+
+img#dois {
+    position: absolute;
+    clear: both;
+    margin-left: -144px;
+    margin-top: 284px;
+}
+
+img#fork {
+    position: absolute;
+    margin-top: 296px;
+    margin-left: -90px;
+}
+
+h3#what {
+    position: absolute;
+    width: 299px;
+    height: 28px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    /*letter-spacing: 0.02em;*/
+    color: #4F4F4F;
+    margin-top: 164px;
+    margin-left: 152px;
+}
+
+img#tres {
+    position: absolute;
+    margin-top: 360px;
+    margin-left: -144px;
+}
+
+img#hat {
+    position: absolute;
+    margin-top: 372px;
+    margin-left: -90px;
+}
+
+h3#choose {
+    position: absolute;
+    width: 162px;
+    height: 28px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #4F4F4F;
+    margin-top: 240px;
+    margin-left: 152px;
+}
+
+button#prev {
+    position: relative;
+    margin-top: 566px;
+    margin-left: 255px;
+    width: 260px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #CDCAFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #524AB3;
+}
+
+button#prev:hover {
+    background: #524AB2;
+    color: #FFFFFF;
 }
