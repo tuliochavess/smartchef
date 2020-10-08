@@ -132,7 +132,9 @@ button#next:hover {
     color: #FFFFFF;
 }
 
-/*  tipo-comida ----------------------------------------------------------------- tipo-comida */
+
+
+/*  ----------------------------------------- tipo-comida ----------------------------------------------------------------- tipo-comida */
 
 img#ok {
     position: absolute;
@@ -234,9 +236,9 @@ h3#choose {
 }
 
 button#prev {
-    position: relative;
-    margin-top: 566px;
-    margin-left: 255px;
+    position: absolute;
+    margin-top: 480px;
+    margin-left: -144px;
     width: 260px;
     height: 44px;
     background: #FFFFFF;
@@ -256,4 +258,101 @@ button#prev {
 button#prev:hover {
     background: #524AB2;
     color: #FFFFFF;
+}
+
+/* ----------------------------------------- diva azul ---------------------------------------- */
+
+div#scroll {
+    width:366px;
+    height:370px;
+    overflow:scroll;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    position: relative;
+    margin-top: 72px;
+    margin-left: 76px;
+}
+
+/* width */
+div#scroll::-webkit-scrollbar {
+    width: 8px;
+}
+  
+/* Track */
+div#scroll::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0 #4137C1;
+    border-radius: 8px;
+}
+   
+/* Handle */
+div#scroll::-webkit-scrollbar-thumb {
+    background: #4137C1; 
+    border-radius: 8px; 
+}
+  
+/* Handle on hover */
+div#scroll::-webkit-scrollbar-thumb:hover {
+    background: #4137C1; 
+}
+
+
+button#next-dois {
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 168px;
+    width: 260px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #CDCAFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #524AB3;
+}
+
+button#next-dois:hover {
+    background: #524AB2;
+    color: #FFFFFF;
+}
+
+div.inside {
+    position: relative;
+    width: 106px;
+    height: 92px;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: inline-block;
+    margin-left: 4px;
+    margin-bottom: 4px;
+}
+
+.inside img {
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 39px;
+}
+
+.inside p {
+    position: absolute;
+    height: 24px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #828282;
+    padding-top: 36px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
 }
